@@ -1,0 +1,33 @@
+Preferencias -> Package Control
+  :Install Package -> SublimeREPL
+
+Tools -> SublimeREPL (para ver que se encuentra instalado)
+
+Tools -> Build System -> New Build System (aquí se abre el archivo de config)
+
+Ahora agregar
+
+{
+    "target":"run_existing_window_command",
+    "id":"repl_python_run",
+    "file":"config/python/Main.sublime-menu"
+}
+
+Guardarlo como DalePython.sublime-build
+
+Para probar que está bien configurado hacer
+Tools -> Build System -> DalePython -> ctrl + B -> en una nueva pestaña ver la ejecución
+
+====================================================
+
+Intalar otro paquete importante
+
+Preferencias -> Package Control
+  :Install Package -> python3
+
+
+
+
+
+
+
