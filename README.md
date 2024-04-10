@@ -1,3 +1,6 @@
+Clases
+https://drive.google.com/drive/folders/16CUfQaO5JD8Qr3bpRQ--Jd8DZqMVIxhh?usp=sharing
+
 Tutorial
 https://docs.google.com/presentation/d/13R-rOEBKR_FCsBEbL5XrK37P_Ru-e36kVPmQ4yx5DEU/edit?usp=sharing
 
