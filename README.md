@@ -22,12 +22,30 @@ void loop()
 ````
 void setup()
 {
+  // los pines analógicos no necesitan ser configurados
   pinMode(3, OUTPUT);
 }
 
 void loop() 
 {
-  brillo = analogRead(0);
+  int brillo = analogRead(0);
+  analogWrite(3, brillo);
+}
+````
+
+## Código con ultrasónico
+
+````
+void setup()
+{
+  pinMode(6,  OUTPUT);
+  pinMode(7,  INPUT);
+  pinMode(10, OUTPUT);
+}
+
+void loop() 
+{
+  int brillo = analogRead(0);
   analogWrite(3, brillo);
 }
 ````
